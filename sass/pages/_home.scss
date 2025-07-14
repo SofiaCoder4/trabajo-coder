@@ -1,0 +1,17 @@
+@import "../utilidades/variables";
+@import "../utilidades/listas";
+@import "../abstracts/mixin";
+
+header {
+  @include flex-center;
+
+  nav {
+    ul {
+      color: variables.$color-principal;
+      list-style: none;
+      display: flex;
+      gap: 18px;
+      margin-right: 20px; ;
+    }
+  }
+}

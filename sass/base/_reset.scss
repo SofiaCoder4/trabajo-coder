@@ -1,0 +1,14 @@
+@import "../utilidades/variables";
+@import "../utilidades/listas";
+
+// Reset de estilos básicos
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: variables.$color-principal;
+
+}
